@@ -1,0 +1,6 @@
+x = input("Enter text: ")
+y = x.split()
+acr = ""
+for i in y:
+  acr += i[0]
+print(acr.upper())
